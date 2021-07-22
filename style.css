@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 900px;
+}
+.container{
+    display: flex;
+}
+.container .box{
+    position: relative;
+    border: 5px solid black;
+    width: 9rem;
+    height: 9rem;
+    background: blue;
+    margin-left: 2rem;
+    
+    
+}
+.container .box .abc{
+    text-align: center;
+    margin-top: 3rem;
+    color:white;
+}
+.container .box1{
+    border: 5px solid black;
+    width: 9rem;
+    height: 9rem;
+    background:orangered;
+    margin-left: 1rem;
+    
+    
+}
+.container .box1 .abc{
+    text-align: center;
+    margin-top: 3rem;
+    color:white;
+}
+.container2{
+    display: flex;
+}
+.container2 .box2{
+    border: 5px solid black;
+    width: 9rem;
+    height: 9rem;
+    background:purple;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+.container2 .box2 .abc{
+    text-align: center;
+    margin-top: 3rem;
+    color:white;
+}
+
+.container2 .box3{
+    border: 5px solid black;
+    width: 9rem;
+    height: 9rem;
+    background:green;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.container2 .box3 .abc{
+    text-align: center;
+    margin-top: 3rem;
+    color:white;
+}
+.contain h1{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.contain h1 span{
+    font-size: 2rem;
+    color: purple;
+   
+
+}
+.contain h1 span .un{
+
+    text-decoration: underline;
+}
+
+.brand{
+    display: flex;
+}
+.icon  .a{
+    margin-left: 18rem;
+    width: 5rem;
+    box-shadow: 0 20px 16px 0 rgba(247, 5, 118, 0.2); 
+    border-radius: 22px;
+}
+.icon  .b{
+    margin-left: 18rem;
+    width: 5rem;
+    box-shadow: 0 20px 16px 0 rgba(247, 5, 118, 0.2); 
+    border-radius: 22px;
+    margin-left: 4rem;
+}
+.mybrand{
+    display: flex;
+    margin-left: 23rem;
+    margin-top: 2rem;
+}
+.icon1 .b{
+    
+    width: 5rem;
+    box-shadow: 0 20px 16px 0 rgba(247, 5, 118, 0.2); 
+    border-radius: 22px;
+    margin-left: 4rem;
+}
+
+.btn .new{
+    margin-top: 5rem;
+    margin-left: 40rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    background: blue;
+    text-align: left;
+}
+
+.btn .caret{
+    text-align: right;
+    margin-top: -1rem;
+  
+}
+
+.site div a{
+    display:block;
+    margin-left: 42rem;
+    text-decoration: none;
+    padding: 4px;
+    color: black;
+      visibility: hidden; 
+}
+.site:hover div a{
+    visibility: visible;
+}
